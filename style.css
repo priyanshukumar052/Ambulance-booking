@@ -1,0 +1,81 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: #2980b9;
+}
+
+/* Form styling */
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1e8449;
+}
+
+/* Table styling for admin dashboard */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
